@@ -27,7 +27,7 @@ public class BookingController {
 	@Autowired
 	BookingRepository bookingRepository;
 	/**
-	 * GET /create  --> Create a new booking and save it in the database.
+	 * GET /create  --> Create a new booking and save it in the mongodb database.
 	 */
 	@RequestMapping("/create")
 	public Map<String, Object> create(Booking booking) {
